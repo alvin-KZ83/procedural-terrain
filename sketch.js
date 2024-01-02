@@ -50,25 +50,25 @@ let renderType = true;
 function preload() {
   img = loadImage('img/simple.png');
   //waterImg = loadImage('water.gif');
-  song = loadSound("audio/Razor Sharp.mp3", loaded);
+  //song = loadSound("audio/Razor Sharp.mp3", loaded);
 }
 
 function loaded() {
   button = createButton("Play");
   button.position(1655 + 175, 350);
   button.size(150, 50);
-  button.mousePressed(togglePlaying);
+  //button.mousePressed(togglePlaying);
 }
 
 function togglePlaying() {
-  if (!song.isPlaying()) {
-    song.play();
-    song.setVolume(maxVolume);
-    button.html('pause');
-  } else {
-    song.pause();
-    button.html('play');
-  }
+  //if (!song.isPlaying()) {
+    //song.play();
+    //song.setVolume(maxVolume);
+    //button.html('pause');
+  //} else {
+    //song.pause();
+    //button.html('play');
+  //}
 }
 
 function setup() {
