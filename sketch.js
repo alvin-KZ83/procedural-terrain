@@ -50,7 +50,7 @@ let renderType = true;
 function preload() {
   img = loadImage('img/simple.png');
   //waterImg = loadImage('water.gif');
-  song = loadSound("audio/Wolfgang 5th Symphony.mp3", loaded);
+  song = loadSound("audio/Razor Sharp.mp3", loaded);
 }
 
 function loaded() {
